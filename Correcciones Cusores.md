@@ -1,7 +1,7 @@
-### Correcciones Cusores
+### Correcciones cusores Classicmodels
 
-Cuidado que cuando definimos un cursor que selecciona muchas columnas (como hacen el ejercicio 10) en el fetch vamos a tener que poner tantas variables como columnas hayamos seleccionado. Sería:
+Muy bien! El único detalle es que el precio y la cantidad se deben multiplicar dentro de los paréntesis. Si lo ponemos afuera primero se van a sumar todas las cantidades y luego se va a multiplicar por un precio. Este resultado va a ser distinto.
 
-fetch Rec_Ordenes into numOrden, fechaOrden, fechaRequerida, fechaEntrega, estado, comentarios, numCliente;
+### Correcciones cusores stock
 
-En el ejercicio 11 recuerden multiplicar la cantidad ordenada por el precio del producto, para poder obtener el total gastado.
+Muy bien! Nada para corregir
