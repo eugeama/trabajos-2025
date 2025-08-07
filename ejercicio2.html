@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio </title>
+</head>
+<body>
+    <form>
+        <button type="button" id="boton" border-color=black color=gray>apreta para silly</button>
+        <input type="text" id="input" border-color=black placeholder="ingrese el color">
+    </form>
+
+    <svg width="100" height="100">
+        <circle id="circulo" cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="gray" />
+    </svg>
+
+    <script>
+        let contador= 1;
+        const circulo1= document.getElementById("circulo");
+        const boton1= document.getElementById("boton");
+        boton1.addEventListener("click", () => {
+            const respuesta= document.getElementById("input").value;
+            if(respuesta.length==7 && respuesta[0]=="#"){
+            circulo1.style.fill=respuesta;
+        }
+        else{
+            alert("no es válido");
+        }
+    });
+
+       </script>     
+</body>
+</html>

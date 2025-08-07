@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 3</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("#boton").click(function(){
+        const nombreI= document.getElementById("inputN").value;
+        const apellidoI= document.getElementById("inputA").value;
+        const edadI= document.getElementById("inputE").value;
+        const telefonoI= document.getElementById("inputT").value;
+        const contraseñaI= document.getElementById("inputC").value;
+
+        if(!nombreI.includes(" ") && !apellidoI.includes(" ") && nombreI!=null && 
+        apellidoI!=null && contraseñaI.length>=6 && !contraseñaI.includes(nombreI) && !contraseñaI.includes(apellidoI) 
+        && edadI>=18 && telefonoI[0]==1 && telefonoI[1]==1 && telefonoI.length==8){
+            $("ol").append("<li>"+"nombre: "+nombreI+" apellido: "+apellidoI+" edad: "+edadI+" telefono: "+telefonoI+" contraseña: "+contraseñaI+"</li>");
+        }
+        else{
+            alert("no es válido");
+        }
+        });
+    });
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" id="inputN" border-color=black placeholder="ingrese el nombre">
+        <input type="text" id="inputA" border-color=black placeholder="ingrese el apellido">
+        <input type="text" id="inputE" border-color=black placeholder="ingrese la edad">
+        <input type="text" id="inputT" border-color=black placeholder="ingrese el teléfono">
+        <input type="text" id="inputC" border-color=black placeholder="ingrese contraseña">
+        <button type="button" id="boton" border-color=black color=gray>enviar</button>
+    </form>
+
+    <ol>
+        <p>items ingresados</p>
+    </ol>
+</body>
+</html>
