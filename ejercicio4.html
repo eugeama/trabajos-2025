@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+
+</head>
+<body>
+        <form>
+        <input type="text" id="inputP" border-color=black placeholder="ingrese el producto">
+        <button type="button" id="boton" border-color=black color=gray>enviar</button>
+    </form>
+
+    <script>
+        const botoncin = document.getElementById("boton");
+        const inputPi= document.getElementById("inputP");
+        
+        botoncin.addEventListener("click", () => {
+        const inputNuevo = document.createElement("li");
+        inputNuevo.innerText = inputPi.value;    
+        if(inputPi.value.trim() !== ""){
+            document.body.appendChild(inputNuevo);
+            let botoncito2 = document.createElement("button");
+            botoncito2.textContent = "borrar";
+            document.body.appendChild(botoncito2);
+
+            botoncito2.addEventListener("click", () => {
+                document.body.removeChild(inputNuevo);
+                document.body.removeChild(botoncito2);
+            });
+        }
+        else if(inputPi.value.trim() === ""){
+            alert("no es válido");
+        }
+    });
+    </script>
+</body>
+</html>
+
+

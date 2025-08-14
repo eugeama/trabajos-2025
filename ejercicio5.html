@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="inputP" border-color=black placeholder="ingrese la comida">
+        <input type="text" id="inputP2" border-color=black placeholder="ingrese el numero de la comida">
+        <button type="button" id="boton" border-color=black color=gray>enviar</button>
+    </form>
+
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" id="bootstrap" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+    <script>
+        const botoncin = document.getElementById("boton");
+        const inputPi= document.getElementById("inputP");
+        const inputPi2= document.getElementById("inputP2");
+
+        botoncin.addEventListener("click", () => {
+            const imageUrl = "https://foodish-api.com/images/" + inputPi.value + "/" + inputPi.value + inputPi2.value + ".jpg";
+            
+            fetch(imageUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.blob();
+                })
+                .then(blob => {
+                    const imageObjectURL = URL.createObjectURL(blob);
+                    const agregar = document.createElement("bootstrap");
+                    agregar.classList="card-img-top";
+                    agregar.src = imageObjectURL;
+                    document.body.appendChild(agregar);
+                })
+                .catch(error => {
+                    console.error("There was a problem with the fetch operation:", error);
+                });
+        });
+
+
+    </script>
+    
+</body>
+</html>
