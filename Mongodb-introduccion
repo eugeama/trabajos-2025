@@ -1,0 +1,17 @@
+2) db.tabla_usuarios.find({edad:{$gt: 25}},{nombre: 1, apellido: 1, _id:0})
+
+3) db.tabla_usuarios.find({compras: {$size: 2}}, {_id: 1, mail: 1})
+
+4) db.tabla_usuarios.find({}, {"compras.monto": 1})
+
+5) db.tabla_usuarios.find({"compras.productos.5":{$exists:true}},{"compras":1})
+
+6)db.tabla_usuarios.find({"compras.id_compra":{$eq:1}},{"compras.productos":1})
+
+7)db.tabla_usuarios.updateOne({_id: {$eq: 2}}, {$push: {compras: {"id_compra": 1, "monto": 120.5,"productos": ["laptop","mouse","teclado"]}}})
+
+8) db.tabla_usuarios.updateOne({mail:{$eq: "lucas.martinez@example.com"}},{$set: {mail:"lucas.m@gmail.com"}})
+
+9)db.tabla_usuarios.find({}, {"compras.id_compra": 1, "compras.monto":1}).sort({"compras.monto": - 1}).limit(3)
+
+10) db.tabla_usuarios.find( { "compras.productos": { $ne: "televisor" } }, { nombre: 1, mail: 1 }).sort({ edad: -1 })
