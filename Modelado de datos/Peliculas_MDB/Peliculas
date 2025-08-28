@@ -1,0 +1,21 @@
+[{
+  "_id": 1,
+  "titulo": "El Padrino",
+  "año": 1972,
+  "genero": "Drama",
+  "duracion": "02:33:00",
+  "Actores": [
+    {
+      "nombre": "Marlon",
+      "apellido": "Brando",
+      "fecha_nac": "1956-09-04",
+      "nacionalidad": "Estadounidense"
+    },
+    {
+      "nombre": "Robert",
+      "apellido": "De Niro",
+      "fecha_nac": "1957-09-04",
+      "nacionalidad": "Estadounidense"
+    }
+  ]
+}]

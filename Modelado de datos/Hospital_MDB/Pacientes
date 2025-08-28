@@ -1,0 +1,25 @@
+[{
+  "_id": 1,
+  "nombre": "pepe",
+  "apellido": "pepon",
+  "dni": 23175680,
+  "fecha_nac": "1971-03-02",
+  "telefono": 12345678,
+  "historiaClinica": {
+    "num_historia": 912,
+    "fecha_inicio": "2022-04-12",
+    "observaciones": "blablabla"
+  }
+},{
+  "_id": 2,
+  "nombre": "pepa",
+  "apellido": "pepan",
+  "dni": 23175622,
+  "fecha_nac": "1975-02-11",
+  "telefono": 12341234,
+  "historiaClinica": {
+    "num_historia": 110,
+    "fecha_inicio": "2021-04-12",
+    "observaciones": "blabla"
+  }
+}]

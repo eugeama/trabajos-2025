@@ -1,0 +1,15 @@
+[{
+  "_id": 5,
+  "fecha_consulta": "2025-08-09",
+  "diagnostico": "demencia",
+  "tratamiento": "terapia",
+  "medico": "Lucia",
+  "historiaClinicaID": 1
+},{
+  "_id": 9,
+  "fecha_consulta": "2025-04-10",
+  "diagnostico": "perdida de pelo",
+  "tratamiento": "quimio",
+  "medico": "Lucio",
+  "historiaClinicaID": 2
+}]

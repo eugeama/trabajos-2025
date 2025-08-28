@@ -1,0 +1,11 @@
+[{
+  "_id": 1,
+  "num_historia": 912,
+  "fecha_inicio": "2022-04-12",
+  "observaciones": "blablabla"
+},{
+  "_id": 2,
+  "num_historia": 110,
+  "fecha_inicio": "2021-04-12",
+  "observaciones": "blabla"
+}]

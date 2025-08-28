@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "68b056d0fdf4d46ebf92c2b4"
+  },
+  "materia_id": 1,
+  "nombre_materia": "organizacion de computadoras",
+  "codigo_materia": 20,
+  "horas_semanales": 40,
+  "profesor": [
+    {
+      "nombre": "mayra",
+      "apellido": "graziano"
+    },
+    {
+      "nombre": "nicolas",
+      "apellido": "pruscino"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b056f3fdf4d46ebf92c2b6"
+  },
+  "materia_id": 2,
+  "nombre_materia": "lengua",
+  "codigo_materia": 30,
+  "horas_semanales": 50,
+  "profesor": [
+    {
+      "nombre": "mayra",
+      "apellido": "graziano"
+    },
+    {
+      "nombre": "nicolas",
+      "apellido": "pruscino"
+    }
+  ]
+}]

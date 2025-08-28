@@ -1,0 +1,25 @@
+[{
+  "_id": 1,
+  "nombre": "Ana",
+  "apellido": "Flores",
+  "mail": "ana.flores@example.com",
+  "fecha_nac": "2008-07-05",
+  "puesto": "Jefe",
+  "Carnet": {
+    "num": 2,
+    "emision": "2018-12-09",
+    "vencimiento": "2025-12-09"
+  }
+},{
+  "_id": 2,
+  "nombre": "Anabella",
+  "apellido": "Flor",
+  "mail": "anabella.flor@example.com",
+  "fecha_nac": "2009-08-05",
+  "puesto": "Jefe",
+  "Carnet": {
+    "num": 1,
+    "emision": "2020-11-09",
+    "vencimiento": "2027-11-09"
+  }
+}]

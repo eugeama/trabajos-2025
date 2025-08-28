@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "68b057b1fdf4d46ebf92c2b9"
+  },
+  "nombre": "mayra",
+  "apellido": "graziano",
+  "mail": "pipipu@gmail.com",
+  "titulo": "licenciada en sillys",
+  "materia": [
+    {
+      "id_materia": 1,
+      "nombre_materia": "organizacion de computadoras"
+    },
+    {
+      "id_materia": 2,
+      "nombre_materia": "lengua"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68b05856fdf4d46ebf92c2c2"
+  },
+  "nombre": "nicolas",
+  "apellido": "pruscino",
+  "mail": "pipipus@gmail.com",
+  "titulo": "licenciado en sillys",
+  "materia": [
+    {
+      "id_materia": 1,
+      "nombre_materia": "organizacion de computadoras"
+    },
+    {
+      "id_materia": 2,
+      "nombre_materia": "lengua"
+    }
+  ]
+}]

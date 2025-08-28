@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "68b04298d4278b5ab4beee0c"
+  },
+  "num": 2,
+  "emision": "2018-12-09",
+  "vencimiento": "2025-12-09"
+},{
+  "_id": {
+    "$oid": "68b042c4d4278b5ab4beee10"
+  },
+  "num": 1,
+  "emision": "2020-11-09",
+  "vencimiento": "2027-11-09"
+}]
