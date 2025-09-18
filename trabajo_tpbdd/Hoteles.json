@@ -1,0 +1,4 @@
+{"_id":1,"nombre":"Hilton","Numeros_Utiles":[{"_id":1,"nombre_serv":"Policía","telefono":231309},{"_id":2,"nombre_serv":"Bomberos","telefono":231341}],"Información":{"_id":3695},"Promociones":[{"_id":2}]}
+{"_id":2,"nombre":"Sheraton","Numeros_Utiles":[{"_id":1,"nombre_serv":"Policía","telefono":231309},{"_id":2,"nombre_serv":"Bomberos","telefono":231341}],"Información":{"_id":3695},"Promociones":[]}
+{"_id":3,"nombre":"Forlan","Numeros_Utiles":[{"_id":1,"nombre_serv":"Policía","telefono":231309}],"Información":{"_id":3695},"Promociones":[{"_id":1},{"_id":2}]}
+{"_id":4,"nombre":"Los Pinos","Numeros_Utiles":[{"_id":1,"nombre_serv":"Policía","telefono":231309},{"_id":2,"nombre_serv":"Bomberos","telefono":231341}],"Información":{"_id":3695},"Promociones":[{"_id":1},{"_id":2},{"_id":5,"nombre":"descuento menores de 5 años","porcentaje":15,"fecha_inicio":"2025-09-10","fecha_fin":"2025-10-10"}]}

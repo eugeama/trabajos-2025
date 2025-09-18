@@ -1,0 +1,4 @@
+{"_id":1,"nombre":"Parque lol","direccion":"Triunvirato 3213","telefono":"24962","horarios":null,"dias_cerrado":null,"sitio_web":"parquelol.com"}
+{"_id":2,"nombre":"Museo provincial","direccion":"Congreso 3175","telefono":"241342","horarios":"De 13:00 a 21:00","dias_cerrado":"Feriados","sitio_web":"museoprovincial.com"}
+{"_id":3,"nombre":"Parque Lezama","direccion":"Cabildo 912","telefono":"0893467","horarios":null,"dias_cerrado":null,"sitio_web":"parquelezama.com"}
+{"_id":4,"nombre":"Teatro Brainrot","direccion":"Nazca 5678","telefono":"241391","horarios":"De 15:00 a 20:00","dias_cerrado":"Feriados","sitio_web":"teatritobrainrot.com"}

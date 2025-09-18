@@ -1,0 +1,4 @@
+{"_id":1,"emisor":"usuario","receptor":"hotel","Usuarios":{"_id":1,"mail":"pepeflores@gmail.com"},"id_hotel":1}
+{"_id":2,"emisor":"hotel","receptor":"usuario","Usuarios":{"_id":1,"mail":"pepeflores@gmail.com"},"id_hotel":1}
+{"_id":3,"emisor":"usuario","receptor":"hotel","Usuarios":{"_id":2,"mail":"pepeflores@gmail.com"},"id_hotel":2}
+{"_id":4,"emisor":"usuario","receptor":"hotel","Usuarios":{"_id":2,"mail":"pepeflores@gmail.com"},"id_hotel":2}
