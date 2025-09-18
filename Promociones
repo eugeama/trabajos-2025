@@ -1,0 +1,31 @@
+[{
+  "_id": 1,
+  "nombre": "descuento jubilados",
+  "porcentaje": 10,
+  "fecha_inicio": "2025-01-20",
+  "fecha_fin": "2025-05-20"
+},{
+  "_id": 2,
+  "nombre": "descuento estudiantil",
+  "porcentaje": 20,
+  "fecha_inicio": "2025-04-21",
+  "fecha_fin": "2025-07-21"
+},{
+  "_id": 3,
+  "nombre": "descuento mujeres",
+  "porcentaje": 15,
+  "fecha_inicio": "2025-02-10",
+  "fecha_fin": "2025-03-10"
+},{
+  "_id": 4,
+  "nombre": "descuento universitario",
+  "porcentaje": 20,
+  "fecha_inicio": "2025-08-11",
+  "fecha_fin": "2025-09-12"
+},{
+  "_id": 5,
+  "nombre": "descuento menores de 5 años",
+  "porcentaje": 15,
+  "fecha_inicio": "2025-09-10",
+  "fecha_fin": "2025-10-10"
+}]
